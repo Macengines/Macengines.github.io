@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Adding bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Adding bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <!--Adding google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive website</title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MacTech</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#" class="nav-link  active">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!--header-->
+    <header class="bg-primary d-flex align-items-center text-white pt-3 mt-5">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <h1 class="header-title">Future <br>Ready Solutions For <br>You</h1>
+                    <p>Join us on a journey of innovation and success. We're commited to delivering solution that elevate 
+                        your business and inspire your audience.
+                    </p>
+                    <div class="d-flex gap-3 mb-3">
+                        <button class="btn yellow">Discover More</button>
+                        <button class="btn green">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <img src="images/img8.png" class="img-fluid" alt="Header Image">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--client-->
+    <section id= "clients"class="bg-light py-5">
+        <div class="d-flex flex-wrap justify-content-center gap-2">
+            <img src="images/client1.jpeg" alt="client1" class="client-img img-fluid">
+            <img src="images/client2.jpeg" alt="client2" class="client-img img-fluid">
+            <img src="images/client3.jpeg" alt="client3" class="client-img img-fluid">
+            <img src="images/client4.png" alt="client4" class="client-img img-fluid">
+            <img src="images/client5.png" alt="client5" class="client-img img-fluid">
+        </div>
+    </section>
+    
+    <!--services-->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="title text-center">Solution We Offer</h2>
+            <div class="row text-center">
+                <div class="col-lg-3 col-sm-6 my-2">
+                    <div class="card card-service yellow py-4">
+                        <div class="card-body">
+                            <i class="bi bi-laptop display-5"></i>
+                            <h5 class="card-title mt-3">Web Development</h5>
+                            <p class="card-text">Crafting sleek and powerful websites</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-3 col-sm-6 my-2">
+                    <div class="card card-service yellow py-4">
+                        <div class="card-body">
+                            <i class="bi bi-phone display-5"></i>
+                            <h5 class="card-title mt-3">Mobile Apps</h5>
+                            <p class="card-text">Building apps that bring ideas to life</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-3 col-sm-6 my-2">
+                    <div class="card card-service yellow py-4">
+                        <div class="card-body">
+                            <i class="bi bi-gear display-5"></i>
+                            <h5 class="card-title mt-3">Tech Support</h5>
+                            <p class="card-text">Keeping your systems running smoothly</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-3 col-sm-6 my-2">
+                    <div class="card card-service yellow py-4">
+                        <div class="card-body">
+                            <i class="bi bi-graph-up display-5"></i>
+                            <h5 class="card-title mt-3">SEO Services</h5>
+                            <p class="card-text">Optimize website to rank higher on search engines</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="images/img5.jpg" alt="About Image" class="img-fluid">
+                </div>
+                <div class="col-md-6 p-4">
+                    <h2 class="title">Discover Our Journey <br> Innovating Today for a Better Tomorrow</h2>
+                    <p>At our core, we wre innovators, creators, and problem-solvers. With a passion for excellence, we blend 
+                    creativity and technology to deliver solutions that push the boundaries of what's possible.
+                    </p>
+                    <p>Every project we undertake is a step towards shaping a better future for our clints and 
+                    their communities.</p>
+
+                    <div class="row text-center my-4">
+                        <div class="col-sm-4 my-2">
+                            <div class="card py-4 yellow">
+                                <h3>20+</h3>
+                                <p>Reputable <br>Partners</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-2">
+                            <div class="card py-4 yellow">
+                                <h3>50+</h3>
+                                <p>Accomplished <br>Goals</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 my-2">
+                            <div class="card py-4 yellow">
+                                <h3>2+</h3>
+                                <p>Years of<br>Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-dark btn-about">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--portfolio-->
+    <section id="portfolio" class="green py-5">
+        <div class="container">
+            <h2 class="title text-center">Latest Showcase</h2>
+            <div class="row text-center">
+                <div class="col-lg-4 col-sm-6 my-2">
+                    <div class="card portfolio-card">
+                        <img class="portfolio-img" src="images/img7.jpg" alt="Portifolio 1">
+                        <div class="portfolio-description">
+                            <h5 class="card-title">Innovative Project</h5>
+                            <p>Crafting exceptional experiencea through innovation design</p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 my-2">
+                    <div class="card portfolio-card">
+                        <img class="portfolio-img" src="images/img5.jpg" alt="Portifolio 2">
+                        <div class="portfolio-description">
+                            <h5 class="card-title">Dynamic Project</h5>
+                            <p>Transforming ideas into reality with dynamic, user-centric solutions</p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 my-2">
+                    <div class="card portfolio-card">
+                        <img class="portfolio-img" src="images/img11.jpg" alt="Portifolio 3">
+                        <div class="portfolio-description">
+                            <h5 class="card-title">Creative Project</h5>
+                            <p>Where creativity meets innovative minds, results in remarkable outcomes</p>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--faq-->
+    <section class="py-5" id="faq">
+        <div class="container">
+            <h2 class="title text-center">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="accordionFAQ">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            How does our service benefit your business?
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="faq1" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            Our services are designed to increase effeciency, reduce costs, and ultimately boost your bottom line.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            What industries do we serve?
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="faq2" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            We serve a wide range of industries including technology, finance, construction, healthcare, education and more.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            What is our approach to project management?
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="faq3" data-bs-parent="#accordionFAQ">
+                        <div class="accordion-body">
+                            We use a client-centric approach, ensuring that every project is custom tailored to meets 
+                            your specific needs and goals.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="footer bg-dark text-white py-3 text-center">
+        <p class="mb-0">&copy MacTech 2025. All rights reserved</p>
+    </footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</body>
+</html>
